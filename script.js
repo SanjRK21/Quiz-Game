@@ -446,14 +446,6 @@ const questionCounter = document.getElementById("question-counter");
 let currentQuestionIndex = 0;
 let score = 0;
 
-function startQuiz() {
-  currentQuestionIndex = 0;
-  score = 0;
-  resultElement.classList.add("hide");
-  nextButton.innerText = "Next";
-  showQuestion();
-}
-
 function showQuestion() {
   resetState();
   const currentQuestion = questions[currentQuestionIndex];
@@ -514,6 +506,8 @@ function handleNextQuestion() {
 
 function showFinalResult() {
   resetState();
+  document.getElementById("question-container").classList.add("hide");
+  questionCounter.classList.add("hide");
 
   let title = '';
   if (score >= 8) {
@@ -546,6 +540,8 @@ function startQuiz() {
   score = 0;
   resultElement.classList.add("hide");
   resultElement.innerHTML = "";
+  document.getElementById("question-container").classList.remove("hide");
+  questionCounter.classList.remove("hide");
   nextButton.innerText = "Next";
   showQuestion();
 }
