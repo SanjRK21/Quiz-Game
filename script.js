@@ -438,6 +438,9 @@ const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 const resultElement = document.getElementById("result");
+const startScreen = document.getElementById("start-screen");
+const startButton = document.getElementById("start-btn");
+const quizContainer = document.getElementById("quiz-container");
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -531,5 +534,18 @@ function showFinalResult() {
 // 🔁 Add a single click listener ONCE at the start
 nextButton.addEventListener("click", handleNextQuestion);
 
-startQuiz();
+startButton.addEventListener("click", startQuiz);
+
+function startQuiz() {
+  startScreen.classList.add("hide");           // hide start screen
+  quizContainer.classList.remove("hide");      // show quiz
+
+  currentQuestionIndex = 0;
+  score = 0;
+  resultElement.classList.add("hide");
+  resultElement.innerHTML = "";
+  nextButton.innerText = "Next";
+  showQuestion();
+}
+
 

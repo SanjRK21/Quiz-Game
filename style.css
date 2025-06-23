@@ -64,3 +64,23 @@ h1 {
   font-size: 1.5em;
   color: #ffd700;
 }
+
+.hide {
+  display: none;
+}
+
+#start-screen {
+  text-align: center;
+  padding-top: 100px;
+}
+
+#start-btn {
+  font-size: 1.5rem;
+  padding: 12px 24px;
+  background-color: #fdd835;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Cinzel', serif;
+  box-shadow: 0 0 15px #fdd835;
+}
