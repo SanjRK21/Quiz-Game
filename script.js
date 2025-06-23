@@ -143,8 +143,7 @@ const questions = [
         { text: "The Burrow", correct: true },
         { text: "Number 12 Grimmauld Place", correct: false },
         { text: "Ottery St. Catchpole", correct: false }
-    ],
-    gif: "gifs/Burrow.gif"
+    ]
   },
   {
     question: "What creature is Aragog?",
