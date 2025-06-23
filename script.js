@@ -524,9 +524,9 @@ function showFinalResult() {
   questionGif.classList.add("hide");
 
   let title = '';
-  if (score >= 8) {
+  if (score >= 41) {
     title = "🧙 You're a true Potterhead!";
-  } else if (score >= 5) {
+  } else if (score >= 36) {
     title = "📚 You're on your way to Hogwarts.";
   } else {
     title = "😶 You might be a Muggle…";
