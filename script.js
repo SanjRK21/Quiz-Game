@@ -493,14 +493,19 @@ function selectAnswer(e) {
   nextButton.style.display = "inline-block";
 }
 
-nextButton.addEventListener("click", () => {
+function handleNextQuestion() {
+  if (nextButton.innerText === "Play Again") {
+    startQuiz();
+    return;
+  }
+
   currentQuestionIndex++;
   if (currentQuestionIndex < questions.length) {
     showQuestion();
   } else {
     showFinalResult();
   }
-});
+}
 
 function showFinalResult() {
   resetState();
@@ -521,7 +526,9 @@ function showFinalResult() {
   resultElement.classList.remove("hide");
   nextButton.innerText = "Play Again";
   nextButton.style.display = "inline-block";
-  nextButton.onclick = startQuiz;
 }
+
+// 🔁 Add a single click listener ONCE at the start
+nextButton.addEventListener("click", handleNextQuestion);
 
 startQuiz();
