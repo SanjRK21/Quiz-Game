@@ -441,6 +441,7 @@ const resultElement = document.getElementById("result");
 const startScreen = document.getElementById("start-screen");
 const startButton = document.getElementById("start-btn");
 const quizContainer = document.getElementById("quiz-container");
+const questionCounter = document.getElementById("question-counter");
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -457,6 +458,7 @@ function showQuestion() {
   resetState();
   const currentQuestion = questions[currentQuestionIndex];
   questionElement.innerText = currentQuestion.question;
+  questionCounter.innerText = `Question ${currentQuestionIndex + 1} of ${questions.length}`;
 
   currentQuestion.answers.forEach(answer => {
     const button = document.createElement("button");
