@@ -34,7 +34,8 @@ const questions = [
       { text: "Opens locked doors", correct: true },
       { text: "Levitates objects", correct: false },
       { text: "Creates fire", correct: false }
-    ]
+    ],
+    gif: "gifs/Alohamora.gif"
   },
   {
     question: "What shape is Harry's scar?",
@@ -142,7 +143,8 @@ const questions = [
         { text: "The Burrow", correct: true },
         { text: "Number 12 Grimmauld Place", correct: false },
         { text: "Ottery St. Catchpole", correct: false }
-    ]
+    ],
+    gif: "gifs/Burrow.gif"
   },
   {
     question: "What creature is Aragog?",
@@ -151,7 +153,8 @@ const questions = [
         { text: "Hippogriff", correct: false },
         { text: "Acromantula", correct: true },
         { text: "Thestral", correct: false }
-    ]
+    ],
+    gif: "gifs/Aragog.gif"
   },
   {
     question: "Which vault in Gringotts held the Philosopher’s Stone?",
@@ -223,7 +226,8 @@ const questions = [
         { text: "Barty Crouch Jr.", correct: false },
         { text: "Sirius Black", correct: true },
         { text: "Antonin Dolohov", correct: false }
-    ]
+    ],
+    gif: "gifs/Azkaban.gif"
   },
   {
     question: "What spell repels Dementors?",
@@ -250,7 +254,8 @@ const questions = [
         { text: "Mrs. Norris", correct: true },
         { text: "Colin Creevey", correct: false },
         { text: "Nearly Headless Nick", correct: false }
-    ]
+    ],
+    gif: "gifs/Basilisk.gif"
   },
   {
     question: "What is Gilderoy Lockhart’s favorite color?",
@@ -452,6 +457,8 @@ function showQuestion() {
   const currentQuestion = questions[currentQuestionIndex];
   questionElement.innerText = currentQuestion.question;
   questionCounter.innerText = `Question ${currentQuestionIndex + 1} of ${questions.length}`;
+  questionGif.src = currentQuestion.gif;
+  questionGif.classList.remove("hide");
 
   currentQuestion.answers.forEach(answer => {
     const button = document.createElement("button");
@@ -509,6 +516,7 @@ function showFinalResult() {
   resetState();
   document.getElementById("question-container").classList.add("hide");
   questionCounter.classList.add("hide");
+  questionGif.classList.add("hide");
 
   let title = '';
   if (score >= 8) {
@@ -536,6 +544,7 @@ startButton.addEventListener("click", startQuiz);
 function startQuiz() {
   startScreen.classList.add("hide");           // hide start screen
   quizContainer.classList.remove("hide");      // show quiz
+  questionGif.classList.remove("hide");
 
   currentQuestionIndex = 0;
   score = 0;
