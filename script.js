@@ -442,6 +442,7 @@ const startScreen = document.getElementById("start-screen");
 const startButton = document.getElementById("start-btn");
 const quizContainer = document.getElementById("quiz-container");
 const questionCounter = document.getElementById("question-counter");
+const questionGif = document.getElementById("question-gif");
 
 let currentQuestionIndex = 0;
 let score = 0;
