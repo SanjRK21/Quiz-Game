@@ -531,4 +531,12 @@ function showFinalResult() {
 // 🔁 Add a single click listener ONCE at the start
 nextButton.addEventListener("click", handleNextQuestion);
 
-startQuiz();
+function startQuiz() {
+  currentQuestionIndex = 0;
+  score = 0;
+  resultElement.classList.add("hide");
+  resultElement.innerHTML = ""; // ✅ Clear previous result
+  nextButton.innerText = "Next";
+  showQuestion();
+}
+
