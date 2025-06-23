@@ -62,7 +62,8 @@ const questions = [
       { text: "Phoenix", correct: false },
       { text: "Thestral", correct: false },
       { text: "House-elf", correct: true }
-    ]
+    ],
+    gif: "gifs/Dobby.gif"
   },
   {
     question: "What platform is used to board the Hogwarts Express?",
@@ -180,7 +181,8 @@ const questions = [
         { text: "Lucius Malfoy", correct: false },
         { text: "Fenrir Greyback", correct: false },
         { text: "Peter Pettigrew", correct: false }
-    ]
+    ],
+    gif: "gifs/Dead.gif"
   },
   {
     question: "What type of wood is Harry’s wand made from?",
@@ -244,7 +246,8 @@ const questions = [
         { text: "Lucien", correct: false },
         { text: "Cassius", correct: false },
         { text: "Regulus", correct: false }
-    ]
+    ],
+    gif: "gifs/Draco.gif"
   },
   {
     question: "Who was the first victim of the Basilisk?",
@@ -353,7 +356,8 @@ const questions = [
         { text: "A wizard-born with no magic", correct: true },
         { text: "A non-magical creature", correct: false },
         { text: "A powerful dark wizard", correct: false }
-    ]
+    ],
+    gif: "gifs/cat-lady-filch.gif"
   },
   {
     question: "What house is Luna Lovegood in?",
@@ -407,7 +411,8 @@ const questions = [
         { text: "Lights up your wand", correct: false },
         { text: "Makes objects fly", correct: true },
         { text: "Disarms an enemy", correct: false }
-    ]
+    ],
+    gif: "gifs/emma-watson-hermione.gif"
   },
   {
     question: "What is the name of the village near Hogwarts?",
@@ -425,7 +430,8 @@ const questions = [
         { text: "Chinese Fireball", correct: false },
         { text: "Norwegian Ridgeback", correct: false },
         { text: "Swedish Short-Snout", correct: false }
-    ]
+    ],
+    gif: "gifs/Dragon.gif"
   },
   {
     question: "Who is the keeper of keys and grounds at Hogwarts?",
