@@ -7,7 +7,8 @@ const questions = [
       { text: "Gryffindor", correct: true },
       { text: "Hufflepuff", correct: false },
       { text: "Ravenclaw", correct: false }
-    ]
+    ],
+    gif: "gifs/Gryffindor.gif"
   },
   {
     question: "What position does Harry play on his Quidditch team?",
@@ -118,7 +119,8 @@ const questions = [
         { text: "Hedwig", correct: true },
         { text: "Scabbers", correct: false },
         { text: "Errol", correct: false }
-    ]
+    ],
+    gif: "gifs/Hedwig.gif"
   },
   {
     question: "What magical map shows everyone at Hogwarts?",
@@ -210,7 +212,8 @@ const questions = [
         { text: "Phineas Nigellus", correct: false },
         { text: "Elphias Doge", correct: false },
         { text: "Horace Slughorn", correct: false }
-    ]
+    ],
+    gif: "gifs/Headmaster.gif"
   },
   {
     question: "Who gave Harry the Marauder’s Map?",
@@ -286,7 +289,8 @@ const questions = [
         { text: "Hufflepuff's Cup", correct: false },
         { text: "Mirror of Erised", correct: true },
         { text: "Ravenclaw's Diadem", correct: false }
-    ]
+    ],
+    gif: "gifs/Horcrux.gif"
   },
   {
     question: "What’s the name of the Weasleys’ ghoul?",
@@ -425,7 +429,8 @@ const questions = [
         { text: "Little Whinging", correct: false },
         { text: "Godric's Hollow", correct: false },
         { text: "Hogsmeade", correct: true }
-    ]
+    ],
+    gif: "gifs/hogsmeade.gif"
   },
   {
     question: "Which dragon does Harry face in the Triwizard Tournament?",
@@ -444,7 +449,8 @@ const questions = [
         { text: "Hagrid", correct: true },
         { text: "Snape", correct: false },
         { text: "Dumbledore", correct: false }
-    ]
+    ],
+    gif: "gifs/Hagrid.gif"
   }
 ];
 
