@@ -99,7 +99,8 @@ const questions = [
       { text: "Stuns someone", correct: false },
       { text: "Heals injuries", correct: false },
       { text: "Summons an object", correct: false }
-    ]
+    ],
+    gif: "gifs/Expelliarmus.gif"
   },
   {
     question: "Which of these is NOT a Deathly Hallow?",
@@ -237,7 +238,8 @@ const questions = [
         { text: "Protego", correct: false },
         { text: "Lumos Maxima", correct: false },
         { text: "Expelliarmus", correct: false }
-    ]
+    ],
+    gif: "gifs/ExpectoPatronum.gif"
   },
   {
     question: "What is the name of Draco Malfoy's son?",
@@ -266,7 +268,8 @@ const questions = [
         { text: "Lilac", correct: false },
         { text: "Turquoise", correct: false },
         { text: "Gold", correct: false }
-    ]
+    ],
+    gif: "gifs/Gilderoy-Lockhart.gif"
   },
   {
     question: "What does Felix Felicis do?",
@@ -302,7 +305,8 @@ const questions = [
         { text: "Barty Crouch Jr.", correct: true },
         { text: "Voldemort", correct: false },
         { text: "Mad-Eye Moody", correct: false }
-    ]
+    ],
+    gif: "gifs/Goblet-of-Fire.gif"
   },
   {
     question: "What is the name of Hagrid’s half-brother?",
@@ -311,7 +315,8 @@ const questions = [
         { text: "Gruff", correct: false },
         { text: "Gork", correct: false },
         { text: "Grom", correct: false }
-    ]
+    ],
+    gif: "gifs/grawp.gif"
   },
   {
     question: "What is the main ingredient in Polyjuice Potion?",
