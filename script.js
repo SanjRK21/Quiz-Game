@@ -17,7 +17,8 @@ const questions = [
       { text: "Keeper", correct: false },
       { text: "Seeker", correct: true },
       { text: "Chaser", correct: false }
-    ]
+    ],
+    gif: "gifs/Quidditch.gif"
   },
   {
     question: "Who is the Half-Blood Prince?",
@@ -26,7 +27,8 @@ const questions = [
       { text: "Draco Malfoy", correct: false },
       { text: "Tom Riddle", correct: false },
       { text: "Severus Snape", correct: true }
-    ]
+    ],
+    gif: "gifs/Snape.gif"
   },
    {
     question: "What does the spell 'Alohomora' do?",
@@ -45,7 +47,8 @@ const questions = [
       { text: "Star", correct: false },
       { text: "Lightning bolt", correct: true },
       { text: "Skull", correct: false }
-    ]
+    ],
+    gif: "gifs/Scar.gif"
   },
   {
     question: "What does the spell 'Lumos' do?",
@@ -54,7 +57,8 @@ const questions = [
       { text: "Summon objects", correct: false },
       { text: "Create light", correct: true },
       { text: "Make things levitate", correct: false }
-    ]
+    ],
+    gif: "gifs/Lumos.gif"
   },
   {
     question: "Which magical creature is loyal only to one wizard at a time?",
@@ -73,7 +77,8 @@ const questions = [
       { text: "10", correct: false },
       { text: "9 ¾", correct: true },
       { text: "7 ½", correct: false }
-    ]
+    ],
+    gif: "gifs/Platform.gif"
   },
   {
     question: "What is Voldemort’s real name?",
@@ -82,7 +87,8 @@ const questions = [
       { text: "Tom Marvolo Riddle", correct: true },
       { text: "Gellert Grindelwald", correct: false },
       { text: "Lucius Malfoy", correct: false }
-    ]
+    ],
+    gif: "gifs/Voldemort.gif"
   },
   {
     question: "Who guards the Gryffindor common room?",
@@ -91,7 +97,8 @@ const questions = [
       { text: "A painting of a fat lady", correct: true },
       { text: "Dobby", correct: false },
       { text: "A spell barrier", correct: false }
-    ]
+    ],
+    gif: "gifs/Room.gif"
   },
   {
     question: "What does the spell 'Expelliarmus' do?",
@@ -110,7 +117,8 @@ const questions = [
       { text: "Resurrection Stone", correct: false },
       { text: "Invisibility Cloak", correct: false },
       { text: "Time-Turner", correct: true }
-    ]
+    ],
+    gif: "gifs/the-deathly-hallows.gif"
   },
   {
     question: "What is the name of Harry’s owl?",
@@ -129,7 +137,8 @@ const questions = [
         { text: "The Map of Secrets", correct: false },
         { text: "Hogwarts Atlas", correct: false },
         { text: "The Cloak Chart", correct: false }
-    ]
+    ],
+    gif: "gifs/Map.gif"
   },
   {
     question: "Who teaches Transfiguration at Hogwarts?",
@@ -138,7 +147,8 @@ const questions = [
         { text: "Professor McGonagall", correct: true },
         { text: "Professor Flitwick", correct: false },
         { text: "Professor Sprout", correct: false }
-    ]
+    ],
+    gif: "gifs/Transfiguration.gif"
   },
   {
     question: "What is the name of the Weasley family’s house?",
@@ -166,7 +176,8 @@ const questions = [
         { text: "666", correct: false },
         { text: "394", correct: false },
         { text: "627", correct: false }
-    ]
+    ],
+    gif: "gifs/pierre-philosophale.gif"
   },
   {
     question: "What form does Hermione’s Patronus take?",
@@ -175,7 +186,8 @@ const questions = [
         { text: "Cat", correct: false },
         { text: "Rabbit", correct: false },
         { text: "Horse", correct: false }
-    ]
+    ],
+    gif: "gifs/Patronus.gif"
   },
   {
     question: "Who kills Dobby?",
@@ -194,7 +206,8 @@ const questions = [
         { text: "Holly", correct: true },
         { text: "Elder", correct: false },
         { text: "Willow", correct: false }
-    ]
+    ],
+    gif: "gifs/Wand.gif"
   },
   {
     question: "What magical object shows your deepest desire?",
@@ -203,7 +216,8 @@ const questions = [
         { text: "The Pensieve", correct: false },
         { text: "The Invisibility Cloak", correct: false },
         { text: "The Time-Turner", correct: false }
-    ]
+    ],
+    gif: "gifs/Mirror.gif"
   },
   {
     question: "Who was the headmaster before Dumbledore?",
@@ -222,7 +236,8 @@ const questions = [
         { text: "Fred and George", correct: true },
         { text: "Remus Lupin", correct: false },
         { text: "Sirius Black", correct: false }
-    ]
+    ],
+    gif: "gifs/Map.gif"
   },
   {
     question: "Who was the first to escape Azkaban?",
@@ -280,7 +295,8 @@ const questions = [
         { text: "Makes you invisible", correct: false },
         { text: "Gives you luck", correct: true },
         { text: "Makes you smart", correct: false }
-    ]
+    ],
+    gif: "gifs/Liquid.gif"
   },
   {
     question: "Which of these is NOT a Horcrux?",
@@ -299,7 +315,8 @@ const questions = [
         { text: "Gnar", correct: false },
         { text: "He has no name", correct: true },
         { text: "Gormy", correct: false }
-    ]
+    ],
+    gif: "gifs/Weasley.gif"
   },
   {
     question: "Who put Harry’s name in the Goblet of Fire?",
@@ -328,7 +345,8 @@ const questions = [
         { text: "Mandrake root", correct: false },
         { text: "Hair or part of the person", correct: true },
         { text: "Boomslang skin", correct: false }
-    ]
+    ],
+    gif: "gifs/Polyjuice.gif"
   },
   {
     question: "What does the spell 'Obliviate' do?",
@@ -337,7 +355,8 @@ const questions = [
         { text: "Unlocks doors", correct: false },
         { text: "Erases memory", correct: true },
         { text: "Disarms opponent", correct: false }
-    ]
+    ],
+    gif: "gifs/Obliviate.gif"
   },
   {
     question: "Who kills Sirius Black?",
@@ -346,7 +365,8 @@ const questions = [
         { text: "Draco Malfoy", correct: false },
         { text: "Bellatrix Lestrange", correct: true },
         { text: "Fenrir Greyback", correct: false }
-    ]
+    ],
+    gif: "gifs/sirius-black.gif"
   },
   {
     question: "What magical device turns back time?",
@@ -355,7 +375,8 @@ const questions = [
         { text: "Clock Turner", correct: false },
         { text: "Time-Turner", correct: true },
         { text: "Pendulum of Fate", correct: false }
-    ]
+    ],
+    gif: "gifs/Time-Turner.gif"
   },
   {
     question: "What is a squib?",
@@ -374,7 +395,8 @@ const questions = [
         { text: "Hufflepuff", correct: false },
         { text: "Slytherin", correct: false },
         { text: "Ravenclaw", correct: true }
-    ]
+    ],
+    gif: "gifs/Luna.gif"
   },
   {
     question: "Who becomes the new headmaster after Snape?",
@@ -383,7 +405,8 @@ const questions = [
         { text: "Neville Longbottom", correct: false },
         { text: "Professor McGonagall", correct: true },
         { text: "Horace Slughorn", correct: false }
-    ]
+    ],
+    gif: "gifs/smack-slapping.gif"
   },
   {
     question: "What’s the name of the train that takes students to Hogwarts?",
@@ -392,7 +415,8 @@ const questions = [
         { text: "Hogwarts Express", correct: true },
         { text: "Wizard Rail", correct: false },
         { text: "Hogsmeade Flyer", correct: false }
-    ]
+    ],
+    gif: "gifs/Train.gif"
   },
   {
     question: "Who is the ghost of Slytherin house?",
@@ -401,7 +425,8 @@ const questions = [
         { text: "Nearly Headless Nick", correct: false },
         { text: "The Fat Friar", correct: false },
         { text: "The Grey Lady", correct: false }
-    ]
+    ],
+    gif: "gifs/Slytherin.gif"
   },
   {
     question: "What vault was used to store the Philosopher’s Stone?",
@@ -410,7 +435,8 @@ const questions = [
         { text: "Vault 713", correct: true },
         { text: "Vault 777", correct: false },
         { text: "Vault 999", correct: false }
-    ]
+    ],
+    gif: "gifs/pierre-philosophale.gif"
   },
   {
     question: "What does the spell 'Wingardium Leviosa' do?",
