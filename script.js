@@ -238,8 +238,7 @@ const questions = [
         { text: "Protego", correct: false },
         { text: "Lumos Maxima", correct: false },
         { text: "Expelliarmus", correct: false }
-    ],
-    gif: "gifs/ExpectoPatronum.gif"
+    ]
   },
   {
     question: "What is the name of Draco Malfoy's son?",
