@@ -26,8 +26,13 @@ body {
   backdrop-filter: blur(6px);
 }
 
+@font-face {
+  font-family: 'HarryP';
+  src: url('fonts/HarryP.ttf') format('truetype');
+}
+
 h1 {
-  font-family: 'UnifrakturCook', cursive;
+  font-family: 'HarryP', serif;
   font-size: 3rem;
   color: #ffcc00;
   text-shadow: 0 0 10px #ffcc00;
