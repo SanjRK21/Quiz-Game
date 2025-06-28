@@ -4,10 +4,11 @@ body {
   color: #f7f1d2;
   padding: 20px;
   text-align: center;
-  background: #000 url('gifs/candles.gif') repeat top center;
+  background: #000 url('img/hogwarts.jpg') no-repeat center center fixed;
   background-size: cover;
   animation: flicker 3s infinite alternate;
   overflow-x: hidden;
+  position: relative;
 }
 
 @keyframes flicker {
