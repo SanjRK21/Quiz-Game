@@ -16,6 +16,30 @@ body {
   to   { filter: brightness(1.15); }
 }
 
+@font-face {
+  font-family: 'Lumos';
+  src: url('fonts/LUMOS.TTF') format('truetype');
+}
+
+/* Start screen header */
+#start-screen h1 {
+  font-family: 'Lumos', serif;
+  font-size: 5rem;
+  color: white;
+  text-shadow: 0 0 10px white;
+  margin-bottom: 20px;
+}
+
+/* h1 elements */
+h1 {
+  font-family: 'Lumos', serif;
+  font-size: 3rem;
+  color: white;
+  text-shadow: 0 0 10px white;
+  margin-bottom: 20px;
+}
+
+/* Main container for the quiz content */
 .quiz-container {
   background: rgba(20, 20, 20, 0.95);
   border: 2px solid white;
@@ -27,27 +51,7 @@ body {
   backdrop-filter: blur(6px);
 }
 
-@font-face {
-  font-family: 'Lumos';
-  src: url('fonts/LUMOS.TTF') format('truetype');
-}
-
-#start-screen h1 {
-  font-family: 'Lumos', serif;
-  font-size: 5rem;
-  color: white;
-  text-shadow: 0 0 10px white;
-  margin-bottom: 20px;
-}
-
-h1 {
-  font-family: 'Lumos', serif;
-  font-size: 3rem;
-  color: white;
-  text-shadow: 0 0 10px white;
-  margin-bottom: 20px;
-}
-
+/* Displays current question number */
 #question-counter {
   font-size: 1.2rem;
   margin-bottom: 10px;
@@ -55,6 +59,7 @@ h1 {
   font-weight: bold;
 }
 
+/* GIF below each question */
 .question-gif {
   max-width: 100%;
   height: auto;
@@ -68,11 +73,12 @@ h1 {
   transform: scale(1.02);
 }
 
+/* Answer buttons */
 .btn-container button {
   font-family: 'Lumos', serif;
   background-color: rgba(255, 255, 255, 0.07);
   color: #f7f1d2;
-  border: 1px solid white;
+  border: 1px solid #ffd700;
   margin: 10px auto;
   padding: 12px;
   width: 80%;
@@ -83,11 +89,13 @@ h1 {
   box-shadow: 0 0 8px rgba(255, 255, 255, 0.1);
 }
 
+/* Hover effect for buttons */
 .btn-container button:hover {
   background-color: rgba(255, 255, 255, 0.15);
   box-shadow: 0 0 10px white;
 }
 
+/* When a correct answer is selected */
 .btn-container button.correct {
   background-color: #4caf50 !important;
   color: #fff;
@@ -95,6 +103,7 @@ h1 {
   box-shadow: 0 0 12px #4caf50;
 }
 
+/* When a wrong answer is selected */
 .btn-container button.wrong {
   background-color: #e53935 !important;
   color: #fff;
@@ -102,6 +111,7 @@ h1 {
   box-shadow: 0 0 12px #e53935;
 }
 
+/* "Next" button */
 #next-btn {
   background-color: #ffd700;
   color: #1a1a1a;
@@ -117,11 +127,13 @@ h1 {
   box-shadow: 0 0 10px #ffd700;
 }
 
+/* Hover effect for next button */
 #next-btn:hover {
   background-color: #ffea00;
   box-shadow: 0 0 15px #fff176;
 }
 
+/* Result text */
 #result {
   margin-top: 30px;
   font-size: 1.7em;
