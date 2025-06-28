@@ -18,12 +18,12 @@ body {
 
 .quiz-container {
   background: rgba(20, 20, 20, 0.95);
-  border: 2px solid #ffd700;
+  border: 2px solid white;
   padding: 30px 20px;
   border-radius: 20px;
   max-width: 700px;
   margin: 50px auto;
-  box-shadow: 0 0 30px #ffeb3b;
+  box-shadow: 0 0 30px white;
   backdrop-filter: blur(6px);
 }
 
@@ -32,18 +32,26 @@ body {
   src: url('fonts/LUMOS.TTF') format('truetype');
 }
 
+#start-screen h1 {
+  font-family: 'Lumos', serif;
+  font-size: 5rem;
+  color: white;
+  text-shadow: 0 0 10px white;
+  margin-bottom: 20px;
+}
+
 h1 {
   font-family: 'Lumos', serif;
-  font-size: 4.5rem;
-  color: #ffcc00;
-  text-shadow: 0 0 10px #ffcc00;
+  font-size: 3rem;
+  color: white;
+  text-shadow: 0 0 10px white;
   margin-bottom: 20px;
 }
 
 #question-counter {
   font-size: 1.2rem;
   margin-bottom: 10px;
-  color: #ffd700;
+  color: white;
   font-weight: bold;
 }
 
@@ -52,7 +60,7 @@ h1 {
   height: auto;
   margin-top: 15px;
   border-radius: 12px;
-  box-shadow: 0 0 15px #fdd835;
+  box-shadow: 0 0 15px white;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -64,7 +72,7 @@ h1 {
   font-family: 'Lumos', serif;
   background-color: rgba(255, 255, 255, 0.07);
   color: #f7f1d2;
-  border: 1px solid #ffd700;
+  border: 1px solid white;
   margin: 10px auto;
   padding: 12px;
   width: 80%;
@@ -77,7 +85,7 @@ h1 {
 
 .btn-container button:hover {
   background-color: rgba(255, 255, 255, 0.15);
-  box-shadow: 0 0 10px #ffd700;
+  box-shadow: 0 0 10px white;
 }
 
 .btn-container button.correct {
