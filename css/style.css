@@ -9,6 +9,7 @@ body {
   animation: flicker 3s infinite alternate;
   overflow-x: hidden;
   position: relative;
+  cursor: url('cursor/Harry\ Potter\ Cursor\ Normal\ Wand.cur'), auto;
 }
 
 @keyframes flicker {
