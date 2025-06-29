@@ -157,7 +157,8 @@ const questions = [
         { text: "The Burrow", correct: true },
         { text: "Number 12 Grimmauld Place", correct: false },
         { text: "Ottery St. Catchpole", correct: false }
-    ]
+    ],
+    gif: "gifs/Burrow.gif"
   },
   {
     question: "What creature is Aragog?",
@@ -256,7 +257,8 @@ const questions = [
         { text: "Protego", correct: false },
         { text: "Lumos Maxima", correct: false },
         { text: "Expelliarmus", correct: false }
-    ]
+    ],
+    gif: "gifs/Demeantors.gif"
   },
   {
     question: "What is the name of Draco Malfoy's son?",
